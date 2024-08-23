@@ -1,0 +1,13 @@
+OPENAI_API_KEY = "<WRTIE YOUR KEY>"
+
+# ChromaDB config
+DB_PATH = "chromadb"
+COLLECTION_NAME = "tutorial"
+
+# Model config
+LLM_MODEL = "gpt-4o-mini"
+EMBEDDING_MODEL = "text-embedding-3-small"
+
+# Split config
+CHUNK_SIZE = 500
+OVERLAP_SIZE = 100
